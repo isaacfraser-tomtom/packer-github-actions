@@ -1,5 +1,5 @@
 # see https://hub.docker.com/r/hashicorp/packer/tags for all available tags
-FROM hashicorp/packer:light@sha256:93291f0b3041080b47b065b77309e5c1beee52c6bd691224d21d32e91ec9b562
+FROM hashicorp/packer:full@sha256:4138190536383c89dab921d3f4dab1d98b4399c91d2bd5c830acf47fb8ff5fa1
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 
